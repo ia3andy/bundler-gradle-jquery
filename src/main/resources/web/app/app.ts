@@ -3,7 +3,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import $ from 'jquery';
 
 function endCountdown() {
-    $.get('/hello', (data) => {
+    $.get('/hello', (data: any) => {
         $('.toast-title').html(`RECEIVED DATA FROM QUARKUS API`);
         $('.toast-body').html(`<b>${data}</b>`);
     });
@@ -12,7 +12,7 @@ function endCountdown() {
 let count = 5;
 
 const timer = setInterval(function () {
-    handleTimer(count);
+    handleTimer();
 }, 1000);
 
 function handleTimer() {
@@ -26,5 +26,5 @@ function handleTimer() {
     }
 }
 
-handleTimer(count);
+handleTimer();
 
