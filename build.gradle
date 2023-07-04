@@ -16,7 +16,7 @@ dependencies {
     implementation 'io.quarkus:quarkus-resteasy-reactive'
     implementation 'io.quarkus:quarkus-arc'
     implementation "io.quarkiverse.quteserverpages:quarkus-qute-server-pages:2.0.1.Final"
-    implementation 'io.quarkiverse.web-bundler:quarkus-web-bundler:0.0.1-alpha4'
+    implementation 'io.quarkiverse.web-bundler:quarkus-web-bundler:1.0.0-CR2'
     implementation 'org.mvnpm:jquery:3.7.0'
     implementation 'org.mvnpm:bootstrap:5.2.3'
     implementation 'org.mvnpm:bootstrap-icons:1.10.5'
