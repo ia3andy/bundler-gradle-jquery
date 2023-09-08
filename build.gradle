@@ -5,9 +5,6 @@ plugins {
 
 repositories {
     mavenCentral()
-    maven {
-        url "https://repo.mvnpm.org/maven2"
-    }
     mavenLocal()
 }
 
@@ -15,8 +12,8 @@ dependencies {
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
     implementation 'io.quarkus:quarkus-resteasy-reactive'
     implementation 'io.quarkus:quarkus-arc'
-    implementation "io.quarkiverse.quteserverpages:quarkus-qute-server-pages:2.0.1.Final"
-    implementation 'io.quarkiverse.web-bundler:quarkus-web-bundler:1.1.1'
+    implementation "io.quarkiverse.quteserverpages:quarkus-qute-server-pages:2.1.0.Final"
+    implementation 'io.quarkiverse.web-bundler:quarkus-web-bundler:1.1.2'
     implementation 'org.mvnpm:jquery:3.7.0'
     implementation 'org.mvnpm:bootstrap:5.2.3'
     implementation 'org.mvnpm:bootstrap-icons:1.10.5'
