@@ -12,11 +12,11 @@ dependencies {
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
     implementation 'io.quarkus:quarkus-resteasy-reactive'
     implementation 'io.quarkus:quarkus-arc'
-    implementation "io.quarkiverse.quteserverpages:quarkus-qute-server-pages:2.1.0.Final"
-    implementation 'io.quarkiverse.web-bundler:quarkus-web-bundler:1.1.6'
-    implementation 'org.mvnpm:jquery:3.7.0'
-    implementation 'org.mvnpm:bootstrap:5.2.3'
-    implementation 'org.mvnpm:bootstrap-icons:1.10.5'
+    implementation 'io.quarkiverse.web-bundler:quarkus-web-bundler:1.3.0'
+    compileOnly 'org.mvnpm:jquery:3.7.0'
+    compileOnly 'org.mvnpm:bootstrap:5.2.3'
+    compileOnly 'org.mvnpm:bootstrap-icons:1.10.5'
+
     testImplementation 'io.quarkus:quarkus-junit5'
     testImplementation 'io.rest-assured:rest-assured'
 }
