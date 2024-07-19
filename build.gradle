@@ -12,7 +12,7 @@ dependencies {
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
     implementation 'io.quarkus:quarkus-resteasy-reactive'
     implementation 'io.quarkus:quarkus-arc'
-    implementation 'io.quarkiverse.web-bundler:quarkus-web-bundler:1.4.0'
+    implementation 'io.quarkiverse.web-bundler:quarkus-web-bundler:1.7.0'
     compileOnly 'org.mvnpm:jquery:3.7.0'
     compileOnly 'org.mvnpm:bootstrap:5.2.3'
     compileOnly 'org.mvnpm:bootstrap-icons:1.10.5'
