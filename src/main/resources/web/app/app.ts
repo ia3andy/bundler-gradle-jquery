@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 function endCountdown() {
     $.get('/hello', (data: any) => {

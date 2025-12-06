@@ -1,8 +1,8 @@
-@import "bootstrap/scss/bootstrap.scss";
+@use "bootstrap/scss/bootstrap.scss";
 
 .count {
   font-size: 2rem;
-  color: darkslateblue;
+  color: blue;
   text-align: center;
 }
 
